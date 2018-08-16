@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#3a3a3a</color>
+    <color name="colorAccent">#c0392b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#cfd8dd</color>
+    <color name="colorDarkGray">#424242</color>
+    <color name="colorLightGray">#EBEFF0</color>
+    <color name="colorGray_700">#515151</color>
+
+
+    <color name="colorEPL">#3d195b</color>
+    <color name="colorBBVA">#034a98</color>
+
+    <color name="splashBG">#2c3e50</color>
+
+</resources>

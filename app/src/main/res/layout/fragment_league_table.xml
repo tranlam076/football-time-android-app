@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/cant_access"
+        android:paddingBottom="@dimen/error_padding"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_marginTop="@dimen/table_border"
+            android:layout_marginRight="@dimen/table_border"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortRank" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortClub" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortPlayed" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortWin" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortDraw" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortLose" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortGoal" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortGoalA" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortGoalD" />
+
+            <TextView
+                android:background="@color/colorLightGray"
+                android:layout_marginLeft="@dimen/table_border"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/text_size.normal"
+                android:text="@string/shortPoint" />
+        </TableRow>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvLeagueTable"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </TableLayout>
+
+
+</RelativeLayout>

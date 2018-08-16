@@ -1,0 +1,85 @@
+﻿<resources>
+
+    <string name="app_name">Football Time</string>
+    <string name="app_description">Live with Football\nAnytime and anywhere</string>
+    
+    <string name="select_title">Pick your Team</string>
+    <string name="select_guide_text">Choose your team and we will tell you all information we think you interested</string>
+    <string name="select_list_text">List teams from big 5 leagues:</string>
+    <string name="skip_text">SKIP THIS STEP</string>
+    <string name="search_team_hint">Enter team name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_exit">Exit APP</string>
+    <string name="action_about">About Dev</string>
+    <string name="action_change">Change My Team</string>
+    <string name="action_language">Language</string>
+
+
+
+    <string name="exit">Exit</string>
+    <string name="ask_for_sure">Are you sure?</string>
+    <string name="yes">OK</string>
+    <string name="no">no</string>
+    <string name="cancel">Cancel</string>
+    <string name="restart_app">App need to restart before apply change</string>
+
+    <string name="developers">Developers</string>
+    <string name="dev_1">Created by Knight of the Blood Team</string>
+    <string name="dev_2">Android Programing Coure</string>
+    <string name="dev_3">ITF - DUT / 2017</string>
+
+    <string name="favorite_title">Favorite Team</string>
+    <string name="info">Info</string>
+    <string name="players">Players</string>
+    <string name="favorite_fullname">Full name: </string>
+    <string name="favorite_shortname">Short name: </string>
+    <string name="favorite_stadium">Stadium: </string>
+    <string name="favorite_capacity">Capacity: </string>
+    <string name="favorite_code">Code: </string>
+    <string name="favorite_manager">Manager: </string>
+
+
+    <string name="player">Player:</string>
+    <string name="player_birthday">Birthday:</string>
+    <string name="player_nationality">Nationality:</string>
+    <string name="player_contract">Contract until:</string>
+    <string name="number">Number</string>
+    <string name="position">Position</string>
+    <string name="name">Name</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="before_1d">Before 1 day</string>
+    <string name="before_1h">Before 1 hour</string>
+    <string name="before_15m">Before 15 minutes</string>
+    <string name="loading">Loading…</string>
+
+    <string name="matchday">Matchday</string>
+    <string name="home_upper">HOME</string>
+    <string name="away">AWAY</string>
+    <string name="fixtures">Fixtures</string>
+    <string name="table">Table</string>
+
+
+    <string name="shortRank">R</string>
+    <string name="shortClub">CLUB</string>
+    <string name="shortPlayed">P</string>
+    <string name="shortWin">P</string>
+    <string name="shortDraw">D</string>
+    <string name="shortLose">B</string>
+    <string name="shortGoal">G</string>
+    <string name="shortGoalA">GA</string>
+    <string name="shortGoalD">GD</string>
+    <string name="shortPoint">P</string>
+
+
+    <string name="home_lower">Home</string>
+    <string name="league_list">League List</string>
+    <string name="other">Others</string>
+
+    <string name="cant_access">Can not connect to server</string>
+
+
+</resources>

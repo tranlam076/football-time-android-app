@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/null_fragment.magin_bottom"
+        android:layout_marginLeft="@dimen/null_fragment.margin_left"
+        android:layout_marginRight="@dimen/null_fragment.margin_right"
+        android:layout_marginTop="@dimen/null_fragment.margin_top"
+        android:orientation="vertical"
+        android:weightSum="80">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_description"
+            android:textSize="@dimen/text_size.large"
+            android:textStyle="italic" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/null_fragment.margin_top" />
+
+        <RelativeLayout
+            android:id="@+id/rlEpl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/null_fragment.layout_height"
+            android:layout_gravity="center"
+            android:layout_weight="16"
+            android:background="@drawable/background_round"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivEPL"
+                android:layout_width="@dimen/null_fragment.logo_size"
+                android:layout_height="@dimen/null_fragment.logo_size"
+                android:src="@drawable/ic_epl" />
+
+            <TextView
+                android:id="@+id/tvEPL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ivEPL"
+                android:text="Premier"
+                android:textColor="@color/colorEPL"
+                android:textSize="@dimen/null_fragment.text_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEPL1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvEPL"
+                android:layout_toRightOf="@id/ivEPL"
+                android:text="League"
+                android:textColor="@color/colorEPL"
+                android:textSize="@dimen/null_fragment.text_large"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:orientation="horizontal"
+            android:weightSum="62">
+
+
+            <RelativeLayout
+                android:id="@+id/rlBbva"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/background_round"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivBBVA"
+                    android:layout_width="@dimen/null_fragment.logo_size"
+                    android:layout_height="@dimen/null_fragment.logo_size"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_bbva" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivBBVA"
+                    android:text="Liga BBVA"
+                    android:textColor="@color/colorBBVA"
+                    android:textSize="@dimen/text_size.large"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+            <RelativeLayout
+                android:id="@+id/rlBundesliga"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/background_round"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivBundesliga"
+                    android:layout_width="@dimen/null_fragment.logo_size"
+                    android:layout_height="@dimen/null_fragment.logo_size"
+                    android:src="@drawable/ic_bundesliga"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivBundesliga"
+                    android:text="Bundesliga"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size.large"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:orientation="horizontal"
+            android:weightSum="62">
+
+            <RelativeLayout
+                android:id="@+id/rlLeague1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/background_round"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivLigue1"
+                    android:layout_width="@dimen/null_fragment.logo_size"
+                    android:layout_height="@dimen/null_fragment.logo_size"
+                    android:src="@drawable/ic_league1"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivLigue1"
+                    android:text="Ligue one"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="@dimen/text_size.large"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+            <RelativeLayout
+                android:id="@+id/rlSeriea"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/background_round"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivSerieA"
+                    android:layout_width="@dimen/null_fragment.logo_size"
+                    android:layout_height="@dimen/null_fragment.logo_size"
+                    android:src="@drawable/ic_seriea"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Serie A"
+                    android:textColor="@color/colorBBVA"
+                    android:textSize="@dimen/text_size.large"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/ivSerieA" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

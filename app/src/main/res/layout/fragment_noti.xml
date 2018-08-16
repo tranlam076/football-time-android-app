@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:orientation="vertical"
+    >
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbtnNoti"
+        android:text="@string/notifications"
+        android:textSize="@dimen/text_size.normal"
+        android:gravity="left|center"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbtnBefore1d"
+        android:text="@string/before_1d"
+        android:textSize="@dimen/text_size.normal"
+        android:gravity="left|center"
+        android:layout_marginLeft="@dimen/noti.margin_left"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbtnBefore1h"
+        android:text="@string/before_1h"
+        android:textSize="@dimen/text_size.normal"
+        android:gravity="left|center"
+        android:layout_marginLeft="@dimen/noti.margin_left"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbtnBefore15m"
+        android:text="@string/before_15m"
+        android:textSize="@dimen/text_size.normal"
+        android:gravity="left|center"
+        android:layout_marginLeft="@dimen/noti.margin_left"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:checkable="true"
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_lower"
+        android:checked="true"/>
+    <item android:title="@string/league_list">
+        <menu>
+            <item android:checkable="true"
+                android:id="@+id/nav_epl"
+                android:icon="@drawable/ic_epl"
+                android:title="EPL" />
+            <item android:checkable="true"
+                android:id="@+id/nav_ligabbva"
+                android:icon="@drawable/ic_bbva"
+                android:title="Liga BBVA" />
+            <item android:checkable="true"
+                android:id="@+id/nav_bundesliga"
+                android:icon="@drawable/ic_bundesliga"
+                android:title="Bundesliga" />
+            <item android:checkable="true"
+                android:id="@+id/nav_seria"
+                android:icon="@drawable/ic_seriea"
+                android:title="Serie A" />
+            <item android:checkable="true"
+                android:id="@+id/nav_league1"
+                android:icon="@drawable/ic_league1"
+                android:title="League One" />
+        </menu>
+    </item>
+
+    <item android:title="@string/other">
+        <menu>
+            <item android:checkable="true"
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_favorite"
+                android:title="@string/favorite_title" />
+            <item android:checkable="true"
+                android:id="@+id/nav_nofti"
+                android:icon="@drawable/ic_noti"
+                android:title="@string/notifications" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@color/colorGray">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorGray_700"
+        android:elevation="4dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/AppTheme.AppBarOverlay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/cant_access"
+        android:paddingBottom="@dimen/error_padding"/>
+
+
+    <LinearLayout
+        android:id="@+id/llBody"
+        android:layout_below="@id/toolBar"
+        android:layout_above="@+id/btnSkip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/select.padding_left"
+            android:paddingRight="@dimen/select.padding_right"
+            android:paddingTop="@dimen/select.padding_top"
+            android:text="@string/select_guide_text"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size.normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/select.padding_bottom"
+            android:paddingLeft="@dimen/select.padding_left"
+            android:paddingTop="@dimen/select.padding_top"
+            android:text="@string/select_list_text"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size.normal" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvListTeam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/select.margin_left"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGray"
+        android:text="@string/skip_text"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size.normal"
+        android:textStyle="italic" />
+</RelativeLayout>
+

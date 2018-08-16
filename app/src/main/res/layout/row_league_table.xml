@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row.table_height"
+    android:layout_marginTop="@dimen/table_border"
+    android:layout_marginRight="@dimen/table_border"
+    android:gravity="center_vertical"
+    android:background="@color/colorGray">
+    <TextView
+        android:id="@+id/tvLeagueTableRank"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="R" />
+
+    <LinearLayout
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/ivLeagueTableLogo"
+            android:layout_width="@dimen/row.table_logo_size"
+            android:layout_height="@dimen/row.table_logo_size"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/row.table_padding"
+            />
+        <TextView
+            android:id="@+id/tvLeagueTableName"
+            android:paddingLeft="@dimen/row.table_padding"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text="name" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/tvLeagueTablePlayed"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="P" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableWin"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="W" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableDraw"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="D" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableLose"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="L" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableGoal"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="G" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableGoalA"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="GA" />
+
+    <TextView
+        android:id="@+id/tvLeagueTableGoalD"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="GD" />
+
+    <TextView
+        android:id="@+id/tvLeagueTablePoint"
+        android:background="@color/colorLightGray"
+        android:layout_marginLeft="@dimen/table_border"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="P" />
+</TableRow>

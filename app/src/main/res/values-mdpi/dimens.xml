@@ -1,0 +1,74 @@
+<resources>
+    <dimen name="text_size.normal">15sp</dimen>
+    <dimen name="text_size.large">24sp</dimen>
+
+    <dimen name="error_padding">50dp</dimen>
+
+    <dimen name="table_border">1dp</dimen>
+
+    <dimen name="nav_logo_size">40dp</dimen>
+
+    <dimen name="select.logo_size">30dp</dimen>
+    <dimen name="select.row_height">40dp</dimen>
+    <dimen name="select.margin_left">25dp</dimen>
+    <dimen name="select.margin_top">5dp</dimen>
+    <dimen name="select.search_margin">15dp</dimen>
+    <dimen name="select.padding_left">15dp</dimen>
+    <dimen name="select.padding_right">15dp</dimen>
+    <dimen name="select.padding_top">10dp</dimen>
+    <dimen name="select.padding_bottom">10dp</dimen>
+
+    <dimen name="home_fixture.padding_top">5dp</dimen>
+    <dimen name="home_fixture.text_padding">3dp</dimen>
+    <dimen name="home_fixture.league.text_size">15dp</dimen>
+    <dimen name="home_fixture.row_margin_right">5dp</dimen>
+    <dimen name="home_fixture.row_margin_left">5dp</dimen>
+    <dimen name="home_fixture.row_margin_top">5dp</dimen>
+    <dimen name="home_fixture.row_margin_bottom">3dp</dimen>
+    <dimen name="home_fixture.league_logo_size">25dp</dimen>
+    <dimen name="home_fixture.team_logo_margin">45dp</dimen>
+    <dimen name="home_fixture.team_logo_size">45dp</dimen>
+    <dimen name="home_fixture.team_name_width">160dp</dimen>
+
+
+
+    <dimen name="league_fixture.team_logo_margin">5dp</dimen>
+    <!-- special padding = logo size + padding -->
+    <dimen name="league_fixture.special_padding">40dp</dimen>
+    <dimen name="league_fixture.team_logo_size">30dp</dimen>
+    <dimen name="league_fixture.padding">5dp</dimen>
+    <dimen name="league_fixture.margin_top">3dp</dimen>
+    <dimen name="league_fixture.text_small">15dp</dimen>
+    <dimen name="league_fixture.row_height">65dp</dimen>
+
+    <dimen name="favorite.header_height">120dp</dimen>
+    <dimen name="favorite.logo_size">89dp</dimen>
+    <dimen name="favorite.header_padding">10dp</dimen>
+    <dimen name="favorite.body_padding">20dp</dimen>
+    <dimen name="favorite.text_padding">5dp</dimen>
+    <dimen name="favorite.text_size_large">28sp</dimen>
+    <dimen name="favorite.text_size_normal">14sp</dimen>
+
+    <dimen name="null_fragment.layout_height">60dp</dimen>
+    <dimen name="null_fragment.margin_top">10dp</dimen>
+    <dimen name="null_fragment.magin_bottom">15dp</dimen>
+    <dimen name="null_fragment.margin_right">10dp</dimen>
+    <dimen name="null_fragment.margin_left">10dp</dimen>
+    <dimen name="null_fragment.logo_size">80dp</dimen>
+    <dimen name="null_fragment.text_large">30dp</dimen>
+
+    <dimen name="row.player_height">40dp</dimen>
+    <dimen name="row.player_padding_horizontal">7dp</dimen>
+    <dimen name="row.player_padding_vertical">2dp</dimen>
+
+    <dimen name="row.table_height">47dp</dimen>
+    <dimen name="row.table_logo_size">28dp</dimen>
+    <dimen name="row.table_padding">5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+    <dimen name="nav_header_magin_top">24dp</dimen>
+    <dimen name="design_navigation_icon_size">25dp</dimen>
+</resources>

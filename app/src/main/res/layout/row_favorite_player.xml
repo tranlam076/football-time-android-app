@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorGray">
+
+    <TableRow
+        android:layout_marginTop="@dimen/table_border"
+        android:layout_marginRight="@dimen/table_border"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row.player_height"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvPlayerNumber"
+            android:background="@color/colorLightGray"
+            android:layout_marginLeft="@dimen/table_border"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/text_size.normal"
+            android:text="0" />
+
+        <LinearLayout
+            android:background="@color/colorLightGray"
+            android:layout_marginLeft="@dimen/table_border"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tvPlayerPos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size.normal"
+                android:paddingLeft="@dimen/row.player_padding_horizontal"
+                android:paddingRight="@dimen/row.player_padding_horizontal"
+                android:paddingTop="@dimen/row.player_padding_vertical"
+                android:paddingBottom="@dimen/row.player_padding_vertical"
+                android:text="XX"
+                style="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPlayerName"
+            android:background="@color/colorLightGray"
+            android:layout_marginLeft="@dimen/table_border"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="@dimen/text_size.normal"
+            android:text="Sample" />
+    </TableRow>
+</LinearLayout>

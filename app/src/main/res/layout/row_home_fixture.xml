@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorGray">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/home_fixture.row_margin_left"
+        android:layout_marginRight="@dimen/home_fixture.row_margin_right"
+        android:layout_marginTop="@dimen/home_fixture.row_margin_top"
+        android:background="@drawable/background_round">
+
+        <RelativeLayout
+            android:id="@+id/rlFixtureHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/home_fixture.row_margin_left"
+            android:layout_marginRight="@dimen/home_fixture.row_margin_right"
+            android:paddingTop="@dimen/home_fixture.padding_top">
+
+            <ImageView
+                android:id="@+id/ivLeagueLogo"
+                android:layout_width="@dimen/home_fixture.league_logo_size"
+                android:layout_height="@dimen/home_fixture.league_logo_size"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_loading" />
+
+            <TextView
+                android:id="@+id/tvLeagueName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ivLeagueLogo"
+                android:padding="@dimen/home_fixture.text_padding"
+                android:text="something"
+                android:textSize="@dimen/home_fixture.league.text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMatchday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:padding="@dimen/home_fixture.text_padding"
+                android:text="something"
+                android:textSize="@dimen/text_size.normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlFixtureBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlFixtureHeader"
+            android:layout_marginBottom="@dimen/home_fixture.row_margin_bottom">
+
+            <LinearLayout
+                android:id="@+id/llHomeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/home_fixture.team_logo_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/home_fixture.text_padding"
+                    android:text="@string/home_upper"
+                    android:textSize="@dimen/text_size.normal"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivHomeLogo"
+                    android:layout_width="@dimen/home_fixture.team_logo_size"
+                    android:layout_height="@dimen/home_fixture.team_logo_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/img_loading" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCenterInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/tvCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="something"
+                    android:textSize="@dimen/text_size.normal" />
+
+                <TextView
+                    android:id="@+id/tvCenter2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="something"
+                    android:textSize="@dimen/text_size.normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAwayInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/home_fixture.team_logo_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/home_fixture.text_padding"
+                    android:text="@string/away"
+                    android:textSize="@dimen/text_size.normal"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/ivAwayLogo"
+                    android:layout_width="@dimen/home_fixture.team_logo_size"
+                    android:layout_height="@dimen/home_fixture.team_logo_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/img_loading" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/llHomeInfo">
+
+                <TextView
+                    android:id="@+id/tvHomeName"
+                    android:layout_width="@dimen/home_fixture.team_name_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/home_fixture.text_padding"
+                    android:text="something"
+                    android:textSize="@dimen/text_size.normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/llAwayInfo">
+
+                <TextView
+                    android:id="@+id/tvAwayName"
+                    android:layout_width="@dimen/home_fixture.team_name_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/home_fixture.text_padding"
+                    android:text="something"
+                    android:textSize="@dimen/text_size.normal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
